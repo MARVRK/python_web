@@ -1,0 +1,3 @@
+ssh-keygen -t rsa -b 4096 -C "bfg578@gmail.com"
+git clone https://github.com/MARVRK/python_web
+git rm --cached my_passwords.txt
