@@ -5,6 +5,7 @@ import datetime as dt
 import pickle
 
 
+
 class View(ABC):
     @abstractmethod
     def display_contacts(self, contacts):
