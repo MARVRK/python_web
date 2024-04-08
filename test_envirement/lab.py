@@ -190,3 +190,79 @@
 #         for number, prime in zip(PRIMES, executor.map(is_prime, PRIMES)):
 #             print('%d is prime: %s' % (number, prime))
 
+# from threading import Thread
+# from time import sleep
+# from http import client
+# from http.server import HTTPServer, BaseHTTPRequestHandler
+
+
+# class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
+
+#     def do_GET(self):
+#         self.send_response(200)
+#         self.end_headers()
+#         self.wfile.write(b'Hello, world!')
+
+#     def do_POST(self):
+#         pass
+
+
+# httpd = HTTPServer(('localhost', 8001), SimpleHTTPRequestHandler)
+# server = Thread(target=httpd.serve_forever)
+# server.start()
+# sleep(0.5)
+
+# h1 = client.HTTPConnection('localhost', 8001)
+# h1.request("GET", "/")
+
+# res = h1.getresponse()
+# print(res.status, res.reason)
+# data = res.read()
+# print(data)
+
+# httpd.shutdown()
+# from jinja2 import Template
+
+# name = 'Bill'
+# age = 28
+
+# tm = Template("My name is {{ name }} and I am {{ age }}")
+# msg = tm.render(name=name, age=age)
+
+# print(msg)  # My name is Bill and I am 28
+# finally
+
+from http.server import HTTPServer, BaseHTTPRequestHandler
+import urllib.parse
+
+
+class HttpHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        pr_url = urllib.parse.urlparse(self.path)
+        if pr_url.path == '/':
+            self.send_html_file('index.html')
+        elif pr_url.path == '/contact':
+            self.send_html_file('contact.html')
+        else:
+            self.send_html_file('error.html', 404)
+
+    def send_html_file(self, filename, status=200):
+        self.send_response(status)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+        with open(filename, 'rb') as fd:
+            self.wfile.write(fd.read())
+
+
+def run(server_class=HTTPServer, handler_class=HttpHandler):
+    server_address = ('', 8000)
+    http = server_class(server_address, handler_class)
+    try:
+        http.serve_forever()
+    except KeyboardInterrupt:
+        http.server_close()
+
+
+if __name__ == '__main__':
+    run()
+
