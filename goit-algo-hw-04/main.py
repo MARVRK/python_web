@@ -66,7 +66,6 @@ class HttpHandler(BaseHTTPRequestHandler):
             with open('storage/data.json', 'a+') as file:
                 json.dump(data, file, indent=2)
                 file.write('\n')
-         
             self.send_response(302)
             self.send_header('Location', '/message')
             self.end_headers()
