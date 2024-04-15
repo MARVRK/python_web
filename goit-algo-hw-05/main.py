@@ -34,8 +34,8 @@ def filter_currency(api_data: dict):
         if entry["currency"] in ["USD", "EUR"]:
             currency = entry["currency"]
             currency_data[currency] = {
-                "sale": entry.get("saleRate", entry["saleRateNB"]),
-                "purchase": entry.get("purchaseRate", entry["purchaseRateNB"])
+                "sale": entry.get("saleRate"),
+                "purchase": entry.get("purchaseRate")
             }
     filtered_values[date] = currency_data
     return filtered_values
