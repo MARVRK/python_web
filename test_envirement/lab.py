@@ -256,7 +256,9 @@
 
 # def run(server_class=HTTPServer, handler_class=HttpHandler):
 #     server_address = ('', 8000)
-#     http = server_class(server_address, handler_class)
+#     http = 
+#           server_class
+#           (server_address, handler_class)
 #     try:
 #         http.serve_forever()
 #     except KeyboardInterrupt:
@@ -264,10 +266,14 @@
 
 
 # if __name__ == '__main__':
-#     run()
+# #     run()
 
-dict =  {"this" : "a", "kielki": "b"}
+# dict =  {"this" : "a", "kielki": "b"}
 
-value = dict.get("kielki")
+# value = dict.get("kielki")
 
-print(value)
+
+
+
+# print(value)
+import sqlite3
