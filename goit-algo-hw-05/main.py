@@ -3,7 +3,7 @@ import platform
 import aiohttp
 import sys
 import logging
-from datetime import timedelta, datetime, time
+from datetime import timedelta, datetime
 
 logging.basicConfig(level=logging.INFO)
 
@@ -64,7 +64,7 @@ if __name__ == "__main__":
         asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
     
     logging.info("Program started.")
-    start_time=time()
+    start_time=time.time()
 
     if int(sys.argv[1]) <= 10:
       r= asyncio.run(main(sys.argv[1]))
@@ -72,7 +72,8 @@ if __name__ == "__main__":
       logging.info("Program finished.")
     else:
         raise ValueError(f"Days range must be no more then 10")
-    finish_time = time()
-    print(finish_time-start_time)
+    finish_time = time.time()
+    x=finish_time-start_time
+    print(x)
 
 

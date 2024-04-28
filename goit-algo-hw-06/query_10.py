@@ -18,7 +18,7 @@ select distinct s.name as subject
 from subjects s 
 join grades g on s.id  = g.subject_id 
 join students s2 on g.student_id  = s2.id 
-WHERE st.id = <student_id> AND s.teacher_id = <teacher_id> -- Replace <student and subject_id> with the ID of the specific subject;
+WHERE s2.id = <student_id> AND s.teacher_id = <teacher_id> -- Replace <student and subject_id> with the ID of the specific subject;
 """
 
 print(execute_query(sql))
