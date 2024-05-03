@@ -276,4 +276,15 @@
 
 
 # print(value)
-import sqlite3
+from faker import Faker
+
+fake = Faker()
+
+names = []
+
+for _ in range(10):
+    name = fake.name()
+    names.append(name)
+
+
+print(names)
