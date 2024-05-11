@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "scrapping"
+version = "0.1.0"
+description = "none"
+authors = ["MARVRK <155836501+MARVRK@users.noreply.github.com>"]
+license = "none"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+sqlalchemy = "^2.0.30"
+scrapy = "^2.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
