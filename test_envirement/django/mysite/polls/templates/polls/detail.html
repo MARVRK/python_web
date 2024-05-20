@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+
+    <form action="{% url 'polls:vote' question.id %}" method="post" class="mb-3">
+        {% csrf_token %}
+        <fieldset>
+            <legend>
+                <h1>{{ question.question_text }}</h1>
+            </legend>
+            {% if error_message %}
+            <p><strong>{{ error_message }}</strong></p>
+            {% endif %}
+            {% for choice in question.choice_set.all %}
+            <div class="form-check">
+                <input
+                        class="form-check-input"
+                        type="radio"
+                        name="choice"
+                        id="choice{{ forloop.counter }}"
+                        value="{{ choice.id }}"
+                />
+                <label for="choice{{ forloop.counter }}" class="form-check-label">{{ choice.choice_text }}</label>
+            </div>
+            <br/>
+            {% endfor %}
+        </fieldset>
+        <button type="submit" class="btn btn-primary"> Vote</button>
+    </form>
+    <a href="{% url 'polls:index' %}">Go back to main page</a>
+</div>
+</body>
+</html>
