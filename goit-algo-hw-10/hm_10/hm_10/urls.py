@@ -1,13 +1,12 @@
 from django.contrib import admin
 from django.urls import path, include
+from quotes.utils import get_mongodb
 from django.shortcuts import render
-from ..utils import get_mongodb
-
 
 def home(request):
     db = get_mongodb()
     quotes_collection = db.quotes
-    quotes = quotes_collection.find()
+    quotes = list(quotes_collection.find())
     return render(request, 'quotes/index.html', {'quotes': quotes})
 
 urlpatterns = [
