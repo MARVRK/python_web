@@ -16,7 +16,7 @@
 # print(car1.spec())
 # print(car2.spec())
 
-# ############## 2) Incapsulation #############
+# ############## 2) Encapsulation #############
 
 # class Car():
 #     def __init__(self, make: str, model: str, year: int, mileage: float, is_driving: bool = False):
@@ -125,12 +125,70 @@
 #     def details(self):
 #         return f"Make:{self.make}, Mode:{self.model}, Year:{self.year}, Mileage:{self.mileage},Engine: {self.engine.details()}"
 
-    
-
 # car_engine = Engine("Diesel", 200, "Lexus")
 # print(car_engine.details())
 # car1 = Car("Titan", "Toyota", 2020, 10.000,car_engine)
 # print(car1.details())
+    
+# ############# 5) Abstraction #############
+# from abc import ABC, abstractmethod
+# from math import pi
+
+# class Shape(ABC):
+#     @abstractmethod
+#     def calculate_area(self) -> float:
+#         pass
+
+# class Rectangle(Shape):
+#     def __init__(self, width: float, length: float):
+#         self.width = width
+#         self.length = length
+
+#     def calculate_area(self) -> float:
+#         return self.width * self.length
+
+# class Circle(Shape):
+#     def __init__(self, radius: float):
+#         self.radius = radius
+
+#     def calculate_area(self) -> float:
+#         return self.radius ** 2 * pi
+
+# # Creating instances of Rectangle and Circle
+# rectangle = Rectangle(4, 5)
+# print(rectangle.calculate_area())  # Output: 20
+
+# circle = Circle(4)
+# print(circle.calculate_area())  # Output: 50.26548245743669
+
+############# 6) Setter and getter Method #############
+
+# class Car():
+#     def __init__(self):
+#         self.__make = "Japan"
+#         self.__model = "Toyota"
+#         self.__year = 2022
+#         self.__milege = 10000
+
+#     @property
+#     def info(self):
+#         print("getter called")
+#         return self.__make,self.__model,self.__year, self.__milege
+    
+#     @info.setter
+#     def info(self,data):
+#         print("setter method called")
+#         self.__make,self.__model,self.__year, self.__milege = data
+        
+
+# car = Car()
+# car.info="Germany","VW",2019,23000
+# print(car.info)
+
+
+############# 7) Operator Overloading Method #############
+
+
 
 # list = []
 # a = 110
@@ -141,12 +199,16 @@
 # print(list2)
 
 
-def foo (table: list[str] | str, src: list | None):
-    if not src:
-        src []
-    if src.extend(table):
-        return src
-x=foo("test1")
-print(x)
-x=foo(["test2", "test3"])
-print(x)
+# def foo (table: list[str] | str, src = [])-> list:
+#     if isinstance(table,list):
+#         src.extend(table)
+#     else:
+#         src.append(table)
+#     return src
+
+# x1=foo(["test1"])
+# print(x1)
+# x=foo(["test2"],x1)
+# print(x)
+# x2=foo(["test3"])
+# print(x2)

@@ -79,6 +79,7 @@ class Vehicle():
         self.year = year
         self.mileage = mileage
 
+
     def details(self):
         return f"Make:{self.make}, Mode:{self.model}, Year:{self.year}, Mileage:{self.mileage}"
 
@@ -87,6 +88,7 @@ class Car(Vehicle):
         super().__init__(make,model,year,mileage)
         self.doors = doors
         self.fuel = fuel
+        self.make = this
    
      def details(self):
         return f"{super().details()}, Nb.of doors:{self.doors}, Fuel type:{self.fuel}"

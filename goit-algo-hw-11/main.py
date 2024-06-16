@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException, Query, Path, status, Request
 from sqlalchemy.orm import Session
 from sqlalchemy import text, extract, and_
-from datetime import datetime, time, timedelta, date
+from datetime import datetime, time, timedelta
 import time
 from typing import List
 from sqlalchemy.exc import IntegrityError
