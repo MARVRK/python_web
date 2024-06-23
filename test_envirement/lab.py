@@ -275,16 +275,72 @@
 
 
 
-# print(value)
-from faker import Faker
+# # print(value)
+# from faker import Faker
 
-fake = Faker()
+# fake = Faker()
 
-names = []
+# names = []
 
-for _ in range(10):
-    name = fake.name()
-    names.append(name)
+# for _ in range(10):
+#     name = fake.name()
+#     names.append(name)
 
 
-print(names)
+# print(names)
+
+tasks = []
+
+def add_task(task):
+    tasks.append(task)
+
+def list_tasks():
+    for idx, task in enumerate(tasks):
+        print(f"{idx}. {task}")
+
+add_task("Learn Python")
+add_task("Build a project")
+list_tasks()
+
+
+student = {"name": "Alice", "age": 25}
+student["grade"] = "A"
+for key, value in student.items():
+    print(key, value)
+
+class Node():
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None  # Initialize the head of the list as None
+
+    def append(self, data):
+        new_node = Node(data)  # Create a new node with the given data
+        if not self.head:  # If the list is empty, make the new node the head
+            self.head = new_node
+            return
+        last = self.head
+        while last.next:  # Traverse to the end of the list
+            last = last.next
+        last.next = new_node  # Append the new node at the end
+
+    def display(self):
+        current = self.head
+        while current:  # Traverse through the list
+            print(current.data, end=" -> ")
+            current = current.next
+        print("None")
+
+# Create a linked list
+ll = LinkedList()
+
+# Append elements to the linked list
+ll.append(10)
+ll.append(20)
+ll.append(30)
+
+# Display the linked list
+ll.display()

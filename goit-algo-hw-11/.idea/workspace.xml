@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce49c9b5-25f6-404d-af69-2ae4f2b4fbd6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../test_envirement/fastapi/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/fastapi/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/fastapi/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/fastapi/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/fastapi/uploads/Screenshot 2024-03-16 150950.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/fastapi/uploads/Screenshot 2024-05-09 184823.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/database/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/database/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/repository/notes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/repository/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/repository/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/routes/notes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/routes/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/services/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/services/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/lette_authorization_cache/src/services/templates/email_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/migrations/versions/1c59adf7860a_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/src/database/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/src/database/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/src/repository/notes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/src/repository/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/src/routes/notes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/src/routes/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/restapi/src/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goit-algo-hw-01/CLI_UML_RK.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../goit-algo-hw-01/CLI_UML_RK.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goit-algo-hw-01/CLI_UML_RK.drawio.html" beforeDir="false" afterPath="$PROJECT_DIR$/../goit-algo-hw-01/CLI_UML_RK.drawio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goit-algo-hw-07/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../goit-algo-hw-07/alembic.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goit-algo-hw-07/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../goit-algo-hw-07/alembic/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goit-algo-hw-07/alembic/script.py.mako" beforeDir="false" afterPath="$PROJECT_DIR$/../goit-algo-hw-07/alembic/script.py.mako" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goit-algo-hw-07/alembic/versions/0c47805a47d5_initial_migration.py" beforeDir="false" afterPath="$PROJECT_DIR$/../goit-algo-hw-07/alembic/versions/0c47805a47d5_initial_migration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goit-algo-hw-09/extract/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../goit-algo-hw-09/extract/extract/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goit-algo-hw-09/extract/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../goit-algo-hw-09/connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goit-algo-hw-09/extract/extract/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../goit-algo-hw-09/extract/extract/spiders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goit-algo-hw-09/extract/terminal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../goit-algo-hw-09/terminal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_envirement/OOP_test_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_envirement/OOP_test_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_envirement/OOP_test_env_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_envirement/OOP_test_env_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_envirement/RabbitMQ/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_envirement/RabbitMQ/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_envirement/django/notes/users/templates/users/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../test_envirement/django/notes/users/templates/users/singup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_envirement/lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_envirement/lab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_envirement/scrapping/test_spyder/test_spyder/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_envirement/scrapping/test_spyder/test_spyder/spiders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_envirement/web-test-page-chat/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_envirement/web-test-page-chat/client.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2iF5NcsXHjeLGflds24VQQbdQIK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/NextCloud/3D_NAS_Code/Courses_Python/Storage_Code/python_web/test_envirement/lette_authorization_cache",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce49c9b5-25f6-404d-af69-2ae4f2b4fbd6" name="Changes" comment="" />
+      <created>1719073445710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719073445710</updated>
+      <workItem from="1719073446721" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

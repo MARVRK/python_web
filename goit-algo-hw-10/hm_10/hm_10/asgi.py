@@ -1,5 +1,5 @@
 """
-ASGI config for hm_10 project.
+ASGI config for hm_13 project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
