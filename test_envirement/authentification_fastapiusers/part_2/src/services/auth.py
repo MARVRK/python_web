@@ -15,7 +15,11 @@ class Auth:
     pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
     SECRET_KEY = "secret_key"
     ALGORITHM = "HS256"
+<<<<<<< HEAD
     oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/src/auth/login")
+=======
+    oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login")
+>>>>>>> 91215bed81aed22c3de01c13d8009769ef1001ff
 
     def verify_password(self, plain_password, hashed_password):
         return self.pwd_context.verify(plain_password, hashed_password)

@@ -23,7 +23,10 @@ async def create_user(body: UserModel, db: Session) -> User:
     return new_user
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 91215bed81aed22c3de01c13d8009769ef1001ff
 async def update_token(user: User, token: str | None, db: Session) -> None:
     user.refresh_token = token
     db.commit()

@@ -199,6 +199,7 @@
 # print(list2)
 
 
+<<<<<<< HEAD
 def foo (table: list[str] | str, src: list | None =None)-> list:
     if src is None:
         src =[]
@@ -214,3 +215,18 @@ x=foo(["test2"],x1)
 print(x)
 x2=foo(["test3"])
 print(x2)
+=======
+# def foo (table: list[str] | str, src = [])-> list:
+#     if isinstance(table,list):
+#         src.extend(table)
+#     else:
+#         src.append(table)
+#     return src
+
+# x1=foo(["test1"])
+# print(x1)
+# x=foo(["test2"],x1)
+# print(x)
+# x2=foo(["test3"])
+# print(x2)
+>>>>>>> 91215bed81aed22c3de01c13d8009769ef1001ff
