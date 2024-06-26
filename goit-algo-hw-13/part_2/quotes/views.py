@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .utils import get_mongodb
+from utils import get_mongodb
 from django.core.paginator import Paginator
 
 def main(request, page=1 ):

@@ -2,15 +2,29 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
 from quotes.models import Author, Quote
+from users.models import Profile
+
 
 class RegisterForm(UserCreationForm):
-    username = forms.CharField(max_length=100, required=True, widget=forms.TextInput(attrs={'class': 'form-control'}))
-    password1 = forms.CharField(max_length=50, required=True, widget=forms.PasswordInput(attrs={'class': 'form-control'}))
-    password2 = forms.CharField(max_length=50, required=True, widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+    username = forms.CharField(max_length=100,
+                               required=True,
+                               widget=forms.TextInput())
+
+    email = forms.CharField(max_length=100,
+                               required=True,
+                               widget=forms.TextInput())
+
+    password1 = forms.CharField(max_length=50,
+                                required=True,
+                                widget=forms.PasswordInput())
+
+    password2 = forms.CharField(max_length=50,
+                                required=True,
+                                widget=forms.PasswordInput())
 
     class Meta:
         model = User
-        fields = ['username', 'password1', 'password2']
+        fields = ['username', 'email', 'password1', 'password2']
 
 class LoginForm(AuthenticationForm):
     username = forms.CharField(max_length=100, required=True, widget=forms.TextInput(attrs={'class': 'form-control'}))
@@ -19,6 +33,13 @@ class LoginForm(AuthenticationForm):
     class Meta:
         model = User
         fields = ['username', 'password']
+
+class ProfileForm(forms.ModelForm):
+    avatar = forms.ImageField(widget=forms.FileInput())
+
+    class Meta:
+        model = Profile
+        fields = ['avatar']
 
 class AuthorForm(forms.ModelForm):
     name = forms.CharField(max_length=255, required=True, widget=forms.TextInput(attrs={'class': 'form-control'}))

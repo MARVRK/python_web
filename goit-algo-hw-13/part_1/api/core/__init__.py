@@ -1,2 +1,0 @@
-def settings():
-	return None

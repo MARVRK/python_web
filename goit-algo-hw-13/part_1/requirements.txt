@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+asyncpg
+alembic
+redis
+pydantic
+python-dotenv
+cloudinary
+fastapi_limiter
+pydantic_settings
+passlib
+python-jose==3.3.0
+libgravatar
+aiohttp
+fastapi_mail
