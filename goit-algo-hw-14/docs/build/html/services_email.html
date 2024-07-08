@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>services.email module &#8212; HM_14_FastApi 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=def86cc0" />
+    
+    <script src="_static/documentation_options.js?v=2709fde1"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="main module" href="main.html" />
+    <link rel="prev" title="services.auth module" href="services_auth.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="main.html" title="main module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="services_auth.html" title="services.auth module"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">HM_14_FastApi 0.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">services.email module</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="module-services.email">
+<span id="services-email-module"></span><h1>services.email module<a class="headerlink" href="#module-services.email" title="Link to this heading">¶</a></h1>
+<dl class="py data">
+<dt class="sig sig-object py" id="services.email.conf">
+<span class="sig-prename descclassname"><span class="pre">services.email.</span></span><span class="sig-name descname"><span class="pre">conf</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">ConnectionConfig(MAIL_USERNAME='postmaster&#64;sandbox48d7dc629dcc4ee6b86e9a8d18d0ca10.mailgun.org',</span> <span class="pre">MAIL_PASSWORD='46e73d3a30bbc67ce1aa2eeca94c99ffa-fe9cf0a8-f2b5f0eb',</span> <span class="pre">MAIL_PORT=587,</span> <span class="pre">MAIL_SERVER='smtp.mailgun.org',</span> <span class="pre">MAIL_STARTTLS=True,</span> <span class="pre">MAIL_SSL_TLS=False,</span> <span class="pre">MAIL_DEBUG=0,</span> <span class="pre">MAIL_FROM='postmaster&#64;sandbox48d7dc629dcc4ee6b86e9a8d18d0ca10.mailgun.org',</span> <span class="pre">MAIL_FROM_NAME='Book</span> <span class="pre">of</span> <span class="pre">Contacts',</span> <span class="pre">TEMPLATE_FOLDER=WindowsPath('D:/NextCloud/3D_NAS_Code/Courses_Python/Storage_Code/python_web/goit-algo-hw-14/src/services/templates'),</span> <span class="pre">SUPPRESS_SEND=0,</span> <span class="pre">USE_CREDENTIALS=True,</span> <span class="pre">VALIDATE_CERTS=True,</span> <span class="pre">TIMEOUT=60)</span></em><a class="headerlink" href="#services.email.conf" title="Link to this definition">¶</a></dt>
+<dd><p>This function sends a verification email to the user’s email address.</p>
+<p>Parameters:
+- email (EmailStr): The email address of the user.
+- username (str): The username of the user.
+- host (str): The host URL where the email verification link will be used.</p>
+<p>Returns:
+- None</p>
+<p>Raises:
+- ConnectionErrors: If there are any issues with the email connection.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="services.email.send_email">
+<em class="property"><span class="k"><span class="pre">async</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">services.email.</span></span><span class="sig-name descname"><span class="pre">send_email</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">EmailStr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">username</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">host</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#services.email.send_email" title="Link to this definition">¶</a></dt>
+<dd><p>This function sends a verification email to the user’s email address.</p>
+<p>Parameters:
+- email (EmailStr): The email address of the user.
+- username (str): The username of the user.
+- host (str): The host URL where the email verification link will be used.</p>
+<p>Returns:
+- None</p>
+<p>Raises:
+- ConnectionErrors: If there are any issues with the email connection.</p>
+</dd></dl>
+
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">services.email module</a><ul>
+<li><a class="reference internal" href="#services.email.conf"><code class="docutils literal notranslate"><span class="pre">conf</span></code></a></li>
+<li><a class="reference internal" href="#services.email.send_email"><code class="docutils literal notranslate"><span class="pre">send_email()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="services_auth.html"
+                          title="previous chapter">services.auth module</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="main.html"
+                          title="next chapter">main module</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/services_email.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="main.html" title="main module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="services_auth.html" title="services.auth module"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">HM_14_FastApi 0.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">services.email module</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2024, MARVRK.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
+    </div>
+  </body>
+</html>

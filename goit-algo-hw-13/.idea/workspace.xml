@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c0a916d-ad2f-4410-a98b-f0c289e56379" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/config.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/db.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/entity_models.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/repository_contacts.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/repository_users.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/routes_auth.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/routes_users.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/schemas_contacts.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/schemas_user.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/services_auth.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/docs/source/services_email.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/tests/test_conf_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/tests/test_database_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/tests/test_repository_contacts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/tests/test_repository_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/tests/test_route_auth_Pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goit-algo-hw-14/tests/test_routes_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_envirement/unitests_documentation/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2iOTsvTEgjD3U1E46U8AQixRt6a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/NextCloud/3D_NAS_Code/Courses_Python/Storage_Code/python_web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NextCloud\3D_NAS_Code\Courses_Python\Storage_Code\python_web\goit-algo-hw-13\part_2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="goit-algo-hw-13" type="Python.DjangoServer" factoryName="Django server">
+      <module name="goit-algo-hw-13" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c0a916d-ad2f-4410-a98b-f0c289e56379" name="Changes" comment="" />
+      <created>1719360834724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719360834724</updated>
+      <workItem from="1719360836420" duration="395000" />
+      <workItem from="1719678076969" duration="17000" />
+      <workItem from="1719678100236" duration="26000" />
+      <workItem from="1719678130799" duration="23000" />
+      <workItem from="1720460721218" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
